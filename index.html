@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400" rel="stylesheet"
+        type="text/css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="stroke">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="about-link">About</a></li>
+                <li><a href="#" class="places-link">Places</a></li>
+                <li><a href="#" class="contacts-link">Contacts</a></li>
+                <li><a href="#" class="login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome To The Wilderness</h1>
+        <p>Come, step into this untamed world and let your senses be awakened</p>
+        <div class="reg">
+            <form action="" class="login-form hidden">
+                <h1 class="title">Login</h1>
+                <div class="login-fields">
+                    <div class="login-box">
+                        <input type="email" placeholder="Email" required class="login-input" />
+                        <i class="ri-mail-fill"></i>
+                    </div>
+                    <div class="login-box">
+                        <input type="password" placeholder="Password" required class="password-input" />
+                        <i class="ri-lock-fill"></i>
+                    </div>
+                    <div class="check">
+                        <div class="check-box">
+                            <input type="checkbox" class="check-input" onchange="myFunction()" id="user-check" />
+                            <label for="user-check" class="check-label">Show password</label>
+                        </div>
+                    </div>
+                    <button class="login-button" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <section class="about hidden">
+            <img src="remove.png" width="20" height="20" class="about-close-button" />
+            <p>
+                Here, the air is thick with the scent of pine and earth, and the only
+                sounds are the rustling of leaves and the occasional hoot of an owl.
+                The sun filters through the canopy overhead, casting dappled shadows
+                on the forest floor. This is a place where nature reigns supreme,
+                where the raw beauty of the wilderness is both awe-inspiring and
+                humbling.
+            </p>
+            <p>
+                But be warned: this is no tame garden; it's a place where survival is
+                a daily struggle, and every step could lead to uncharted territory.
+                Welcome to the wilderness, where adventure awaits.
+            </p>
+        </section>
+        <section class="places hidden">
+            <img src="remove.png" width="20" height="20" class="places-close-button" />
+            <div class="places-image">
+                <img src="pic1.jpg" alt="" />
+            </div>
+            <div class="places-image">
+                <img src="pic2.jpg" alt="" />
+            </div>
+            <div class="places-image">
+                <img src="pic3.jpg" alt="" />
+            </div>
+            <div class="places-image">
+                <img src="pic4.jpg" alt="" />
+            </div>
+            <div class="places-image">
+                <img src="pic5.jpg" alt="" />
+            </div>
+            <div class="places-image">
+                <img src="pic6.jpg" alt="" />
+            </div>
+            <div class="places-image">
+                <img src="pic7.jpg" alt="" />
+            </div>
+            <div class="places-image">
+                <img src="pic8.jpg" alt="" />
+            </div>
+        </section>
+        <section class="contacts hidden">
+            <div class="contacts-container">
+                <img src="remove.png" width="20" height="20" class="contacts-close-button" />
+                <h2>Contact us</h2>
+                <p>
+                    <span>Address:</span>
+                <address>West 21th Street, Suite 721 New York NY
+                    10016</address>
+                </p>
+                <p><span>Phone: </span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+                <p><span>Email: </span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+                <p><span>Website: </span> <a href="#">yoursite.com</a></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
