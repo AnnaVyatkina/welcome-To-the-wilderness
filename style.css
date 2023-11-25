@@ -326,7 +326,7 @@ p {
 
 .contacts {
     width: 500px;
-    height: 55vh;
+    height: 50vh;
     position: relative;
     z-index: 2;
     margin: -145px auto;
@@ -335,17 +335,18 @@ p {
     padding-top: 10px;
     color: rgb(255, 255, 255);
     backdrop-filter: blur(15px);
-    border-radius: 10%;
+    border-radius: 15px;
     border: 2px solid hsla(0, 0%, 100%, 0.7);
     animation: show 0.5s;
     display: flex;
     flex-direction: column;
-    gap: 1px;
+    gap: 5px;
     font-size: 18px;
 }
 
 .contacts h2 {
     text-align: center;
+    margin-left: 25px;
 }
 
 .contacts address {
